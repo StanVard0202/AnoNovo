@@ -1,6 +1,3 @@
-
-
-
 function Time(){
     var date = new Date();
     var anoNovoDate = new Date("December 31, 2021 23:59:59");
