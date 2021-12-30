@@ -9,6 +9,10 @@ function Time(){
     var ma = anoNovoDate.getMinutes(); 
     var sa = anoNovoDate.getSeconds();
     
+    if (h == 24){
+        da--
+    }
+
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
@@ -22,6 +26,7 @@ function Time(){
 
     
     setTimeout(Time, 1000);
+
 }
 
 Time();
